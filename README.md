@@ -1,5 +1,7 @@
 # xbtab: Extended 2×2 Contingency Table Analysis for Stata
 
+[![Stata](https://img.shields.io/badge/Stata-18%2B-red)](https://www.stata.com/)
+
 A Stata command that performs comprehensive exact statistical tests for 2×2 contingency tables, including Fisher's, Barnard's, and Boschloo's exact tests.
 
 ## Overview
