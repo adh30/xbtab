@@ -4,7 +4,7 @@ A Stata command that performs comprehensive exact statistical tests for 2×2 con
 
 ## Overview
 
-`xbtab` extends Stata's built-in contingency table analysis by providing three exact statistical tests that are particularly useful for small sample sizes or when the assumptions of chi-square tests are violated. The command integrates Python's SciPy library to perform advanced exact tests not available in standard Stata.
+`xbtab` extends Stata's built-in contingency table analysis by providing three exact statistical tests that are useful for small sample sizes or when the assumptions of chi-square tests are violated. The command integrates Python's SciPy library to perform advanced exact tests not available in vanilla Stata.
 
 ## Features
 
@@ -39,6 +39,7 @@ A Stata command that performs comprehensive exact statistical tests for 2×2 con
 1. Download the files:
    - `xbtab.ado` - Main command file
    - `xbtab.sthlp` - Help documentation
+   - `xtab_eg.do` - Example do file that performs the test on a subset of NHANES data
 
 2. Place files in your Stata ado directory:
    ```stata
